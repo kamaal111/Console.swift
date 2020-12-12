@@ -1,6 +1,6 @@
 //
-//  Console.swift
-//  
+//  ConsoleSwift.swift
+//
 //
 //  Created by Kamaal M Farah on 12/12/2020.
 //
