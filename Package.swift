@@ -4,19 +4,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "Console",
+    name: "ConsoleSwift",
     products: [
         .library(
-            name: "Console",
-            targets: ["Console"]),
+            name: "ConsoleSwift",
+            targets: ["ConsoleSwift"]),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "Console",
+            name: "ConsoleSwift",
             dependencies: []),
         .testTarget(
-            name: "ConsoleTests",
-            dependencies: ["Console"]),
+            name: "ConsoleSwiftTests",
+            dependencies: ["ConsoleSwift"]),
     ]
 )
